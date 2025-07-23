@@ -1,2 +1,34 @@
 # Voice-Controlled-AI-Assistant
-A Python-based voice assistant that listens to user voice input, sends it to the OpenAI GPT-4o model via API, speaks out the response using text-to-speech, and can open popular websites on command. Built using speech_recognition, pyttsx3, and OpenAI API for a seamless conversational experience.
+# 🎙️ Voice-Controlled AI Assistant using ChatGPT
+
+This project is a simple yet powerful voice assistant built with Python. It listens to your voice, processes your query using OpenAI's GPT-4o model, and responds back with a spoken answer. It can also open popular websites like Google, YouTube, GitHub, and Stack Overflow based on your commands.
+
+---
+
+## 🚀 Features
+
+- 🎤 Voice input using `speech_recognition`
+- 🤖 AI-powered responses using OpenAI GPT-4o
+- 🗣️ Text-to-speech using `pyttsx3`
+- 🌐 Opens websites on voice command
+- 🔁 Continuous interaction loop until "exit" or "quit"
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- OpenAI API (GPT-4o)
+- `speech_recognition`
+- `pyttsx3`
+- `webbrowser`
+- `pyaudio`
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
